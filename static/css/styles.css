@@ -23,40 +23,40 @@ header, footer {
 /* Navigation Styles */
 header nav {
     display: flex;
-    justify-content: space-between; /* Aligns logo and nav links on opposite ends */
-    align-items: center; /* Vertically centers items */
-    padding: 0 20px; /* Padding on both sides for spacing */
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0 20px; 
 }
 
 .logo a {
     color: white;
     text-decoration: none;
-    font-size: 22px; /* Larger font size for logo */
-    margin: 12px; /* Margin around logo for spacing */
+    font-size: 22px; 
+    margin: 12px; 
 }
 
 .nav-links {
-    list-style-type: none; /* Removes default list styling */
+    list-style-type: none; 
     margin: 0;
     padding: 0;
     display: flex;
 }
 
 .nav-links li {
-    padding: 0 15px; /* Space between navigation items */
+    padding: 0 15px; 
 }
 
 .nav-links a {
     color: white;
     text-decoration: none;
-    font-size: 18px; /* Size of navigation links */
+    font-size: 18px; 
 }
 
 .footer-links a {
     color: white;
     text-decoration: none;
-    font-size: 18px; /* Size of navigation links */
-    padding: 0 15px; /* Space between navigation items */
+    font-size: 18px; 
+    padding: 0 15px; 
 }
 
 .content {
@@ -75,28 +75,28 @@ header nav {
 }
 
 #input-text, #output-text {
-    width: 45%; /* Equal width for both input and output */
-    height: 300px; /* Increased height for visibility */
-    padding: 15px; /* Increased padding for aesthetics */
+    width: 45%; 
+    height: 300px; 
+    padding: 15px;
     border-radius: 5px;
     border: 1px solid #ccc;
-    font-size: 16px; /* Increased font size in text boxes */
-    resize: none; /* Disable resizing */
+    font-size: 16px; 
+    resize: none; 
 }
 
 button.btn {
-    background-color: #295F98; /* Blue button */
+    background-color: #295F98;
     border: none;
     color: white;
     margin: 12px;
     padding: 12px 24px;
-    font-size: 16px; /* Larger buttons */
+    font-size: 16px;
     border-radius: 5px;
     cursor: pointer;
 }
 
 button.btn:hover {
-    background-color: #295F98; /* Darker blue on hover */
+    background-color: #295F98; 
 }
 
 .spinner {
@@ -121,11 +121,11 @@ button.btn:hover {
     }
 
     #input-text, #output-text {
-        width: 100%; /* Full width on smaller screens */
+        width: 100%; 
         margin: 10px 0;
     }
 
     .nav-links a, .footer-links a {
-        font-size: 16px; /* Adjusted for mobile readability */
+        font-size: 16px; 
     }
 }
