@@ -33,7 +33,9 @@ Local Processing: All data processing, and model inference are done locally in y
 ### Setting Up the Environment on macOS
 
 python3 -m venv testenv
+
 source testenv/bin/activate
+
 pip install -r requirements.txt
 
 ### Run in second terminal
