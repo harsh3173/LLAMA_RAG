@@ -48,6 +48,14 @@ def query_rag(query_text: str):
     prompt = prompt_template.format(context=context_text, question=query_text)
 
     model = OllamaLLM(model="llama3.2")
+    # model = OllamaLLM(
+    # model="llama3.2",
+    # temperature=0.7,
+    # max_tokens=512,
+    # top_p=0.9,
+    # repetition_penalty=1.1
+    # )
+
     response_text = model.invoke(prompt)
 
     sources = [doc.metadata.get("id", None) for doc, _ in results]
