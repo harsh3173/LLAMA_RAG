@@ -36,9 +36,20 @@ python3 -m venv testenv
 
 source testenv/bin/activate
 
+### Setting Up the Environment on Windows
+
+python3 -m venv testenv
+
+testenv\Scripts\activate
+
+
+### Get all python libraries
+
 pip install -r requirements.txt
 
-### Run in second terminal
+
+### Parallely run OLLAMA in second terminal
+
 Install OLLAMA locally first
 
 ollama run llama3.2
